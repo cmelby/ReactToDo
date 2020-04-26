@@ -1,0 +1,21 @@
+
+.row {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: blue;
+}
+
+h1 {
+    float: left;
+    color: white;
+    margin-left: 10px;
+
+}
+
+h3 {
+    float: right;
+    color: white;
+    margin-right: 30px;
+}
+
