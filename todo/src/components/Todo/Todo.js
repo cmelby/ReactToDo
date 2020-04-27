@@ -5,8 +5,11 @@ import "./todo.css"
 function Todo(props) {
     return (
         <div className="todoItem">
-            <input type="checkbox"/>
-                <p>{props.item.text}</p>
+            <input type="checkbox" 
+                    check={props.item.completed} 
+                    onChange={() => props.handleChange(props.item.id)}
+            />
+            <p>{props.item.text}</p>
         </div>
     )
 }
