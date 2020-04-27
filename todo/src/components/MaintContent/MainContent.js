@@ -1,14 +1,16 @@
 import React from 'react';
 import "./mainContent.css";
+import Todo from "../Todo/Todo"
 
 
 function MainContent() {
-
     return (
-        <div className="container">
-            <h1>Main content goes here</h1>
+        <div className="toDo">
+            <Todo/>
+            <Todo/>
+            <Todo/>
+            <Todo/>
         </div>
     )
 }
-
 export default MainContent;
