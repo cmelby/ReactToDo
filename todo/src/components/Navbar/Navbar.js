@@ -1,5 +1,4 @@
-import React, { Link }  from 'react'
-// import { Link } from 'react'
+import React from 'react'
 import "./navbar.css"
 
 
